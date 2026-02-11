@@ -95,13 +95,13 @@ const SignUp = () => {
         </div>
 
         <button
-          className=" bg-gray-50 text-stone-950 font-semibold p-3 rounded-lg w-full text-sm focus:outline-none transition ease-in-out duration-100 mb-7"
+          className=" bg-gray-50 text-stone-950 font-semibold p-3 rounded-lg w-full text-sm focus:outline-none transition ease-in-out duration-100 mb-5"
           type="submit"
         >
           Sign Up
         </button>
 
-        <h3 className="text-sm mb-5">
+        <h3 className="text-sm ">
           Already have an account?<span className="font-bold">Log In</span>{" "}
         </h3>
       </form>

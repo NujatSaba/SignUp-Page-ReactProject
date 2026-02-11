@@ -14,8 +14,8 @@ const LeftSection = (props) => {
         <LeftHeading />
 
         <div className="flex gap-5 justify-between">
-          {props.cardContent.map(function () {
-            return <Card />;
+          {props.cardContent.map(function (elem,idx) {
+            return <Card key={idx} id={idx} tag={elem.tag} />;
           })}
         </div>
       </div>

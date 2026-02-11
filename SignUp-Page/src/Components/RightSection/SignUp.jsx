@@ -101,7 +101,7 @@ const SignUp = () => {
           Sign Up
         </button>
 
-        <h3 className="text-sm mb-10">
+        <h3 className="text-sm mb-5">
           Already have an account?<span className="font-bold">Log In</span>{" "}
         </h3>
       </form>

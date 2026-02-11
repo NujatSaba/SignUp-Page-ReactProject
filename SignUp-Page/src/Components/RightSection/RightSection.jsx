@@ -5,7 +5,7 @@ import AutoLogIn from './AutoLogIn'
 
 const RightSection = () => {
   return (
-    <div className='h-full w-1/2 bg-black text-white'>
+    <div className='h-screen w-1/2  bg-black text-white'>
         <Heading/>
         <AutoLogIn/>
         <SignUp/>
